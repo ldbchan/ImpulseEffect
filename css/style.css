@@ -937,10 +937,12 @@
 			height: 100%;
 			background: url('images/overlay.png');
 		}
-	
+#facebook{
+	margin-top:1em;}
+
 	#footer-wrapper
 	{
-		background: #282b34 url('images/overlay.png');
+		background: url('images/dark.png');
 		color: #eee;
 		color: rgba(255,255,255,0.5);
 	}
@@ -1002,7 +1004,7 @@
 
 		#footer-wrapper .title
 		{
-			background: #282b34 url('images/overlay.png');
+			background: url('images/dark.png');
 			color: #eee;
 		}
 		
@@ -1041,13 +1043,13 @@
 	
 	.wrapper-style1
 	{
-		background: #0E1A28 url('images/overlay.png');
+		background: url('images/dark.png');
 		color: rgba(255,255,255,0.75);
 	}
 	
 		.wrapper-style1 .title
 		{
-			background: #0E1A28 url('images/overlay.png');
+			background: url('images/dark.png');
 			color:#FFF;
 		}
 	
@@ -1066,12 +1068,12 @@
 	
 	.wrapper-style2
 	{
-		background: #fff;
+		background: url('images/sub.png');
 	}
 	
 		.wrapper-style2 .title
 		{
-			background: #fff;
+			background:url('images/sub.png');
 			color: #484d55;
 		}
 	
