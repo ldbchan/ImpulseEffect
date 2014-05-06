@@ -1,0 +1,43 @@
+body{
+background: #222835 url('images/dark.png');
+
+position: relative;
+top:30px;
+
+}
+
+.reservation_title{
+	display:block;
+	margin:auto;
+}
+
+.reservation_fill{
+	position: relative;
+	left: 310px;
+	bottom: 40px;
+	}
+.second_asile{
+	position: relative;
+	left: 250px;
+	padding-top: 69px;
+}
+.last_asile{
+	position: relative;
+	left: 490px;
+	bottom: 293px;
+}
+#Reservation{
+	text-align:center;
+	position: relative;
+	font: 25pt white;
+	color: white;
+	bottom: 20px;
+}
+.note{
+	position: static;
+	margin-top: -350px;
+	text-align:center;
+	color: red;
+	text-decoration: underline;
+	font-size: 18pt;
+}

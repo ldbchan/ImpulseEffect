@@ -25,19 +25,17 @@
 						queryString[key] = value;
 					}
 				}
-				$('#reservation').append("場次：" + queryString["date"] + " " + queryString["time"]);
+				$('#reservation').append(" on " + queryString["date"] + " " + queryString["time"]);
 			}
 	});
 </script>
-<noscript>
-	<link rel="stylesheet" href="css/skel-noscript.css" />
-	<link rel="stylesheet" href="css/style.css" />
-	<link rel="stylesheet" href="css/style-desktop.css" />
-</noscript>
+<link rel="stylesheet" href="css/reservation.css" />
 </head>
 <body>
-<section class="form_fill">
-	<div id="reservation">
+	<p ><img src="images/title.png" class="reservation_title"></p>
+	<p id="reservation">Reservation</p>
+<section class="reservation_fill">
+	<div>
 		<p id="session"></p>
 		<p>
 		<label>姓名</label>
@@ -47,20 +45,25 @@
 		<label>系級</label>
 		<input type="text" id="department">
 		</p>
-		<p class = "second_asile">
-		<label>學號</label>
-		<input type="text" id="id">
-		</p>
-		<p class = "second_asile">
-		<label>電話</label>
-		<input type="text" id="phone">
-		</p>
-		<p>
-		<label>人數</label>
-		<input type="text" id="amount">
-		<input type="submit" id="submit">
-		</p>
+		<div class = "second_asile">
+			<p>
+				<label>學號</label>
+				<input type="text" id="id">
+			</p>
+			<p>
+				<label>電話</label>
+				<input type="text" id="phone">
+			</p>
+		</div>
+		<div class = "last_asile">
+			<p>
+				<label>人數</label>
+				<input type="text" id="amount">
+				<input type="submit" id="submit">
+			</p>
+		</div>
 	</section>
+	<p class= "note">請在5/13、14、15、16、21、22的中午12:00~14:00 到總圖大廳繳交保證金100元，才視同報名成功.</p>
 </div>
 </section>
 </body>
