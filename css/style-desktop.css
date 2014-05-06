@@ -537,7 +537,11 @@
 	{
 		margin: 1em 0 -1em 0;
 		top:  200px;
-		height: 600px;
+		height: 1150px;
+		
+	}
+	#main tr{
+		border-bottom:2px solid #ccc; 
 	}
 
 		.homepage #main
@@ -548,17 +552,10 @@
 	{ 
   		border:0; 
   		border-collapse: collapse;
-  		width:700px; 
+  		width:1200px; 
   		border-color: black;
 	} 
-	.form_fill{
-		position: relative;
-		display: inline-block;
-		width: 300px;
-		left: 800px;
-		bottom: 640px;
-		margin-bottom: -4000px;
-	}
+	
 	.second_asile{
 		position: relative;
 		left: 200px;
@@ -605,6 +602,7 @@
 
 		#footer header.style1
 		{
+			
 			padding-bottom: 0;
 		}
 
@@ -638,3 +636,27 @@
 			line-height: 1em;
 			font-size: 0.8em;
 		}
+	
+	#foto{
+		float:left;
+		margin-right:60px;}
+#right{
+	
+	display:inline;
+	padding-top:100px;
+	
+	
+	}
+	
+	#contai{
+		width:720px;
+		margin:auto;}
+#facebook{
+	
+	display:inline;
+	}
+	#facebook  h3 img{
+		float:right;}
+		
+#staff{
+	margin-top:120px;}

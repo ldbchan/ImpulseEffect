@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>Impulse Effect</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900" rel="stylesheet" />
+<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+<script src="http://www.parsecdn.com/js/parse-1.2.18.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/enroll.js"></script>
+<script src="js/jquery.dropotron.min.js"></script>
+<script src="js/config.js"></script>
+<script src="js/skel.min.js"></script>
+<script src="js/skel-panels.min.js"></script>
+<script type="text/javascript">
+	var queryString = new Array();
+	$(function () {
+			if (queryString.length === 0) {
+				if (window.location.search.split('?').length > 1) {
+					var params = window.location.search.split('?')[1].split('&');
+					for (var i = 0; i < params.length; i++) {
+						var key = params[i].split('=')[0];
+						var value = decodeURIComponent(params[i].split('=')[1]);
+						queryString[key] = value;
+					}
+				}
+				$('#reservation').append("場次：" + queryString["date"] + " " + queryString["time"]);
+			}
+	});
+</script>
+<noscript>
+	<link rel="stylesheet" href="css/skel-noscript.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/style-desktop.css" />
+</noscript>
+</head>
+<body>
+<section class="form_fill">
+	<div id="reservation">
+		<p id="session"></p>
+		<p>
+		<label>姓名</label>
+		<input type="text" id="name">
+		</p>
+		<p>
+		<label>系級</label>
+		<input type="text" id="department">
+		</p>
+		<p class = "second_asile">
+		<label>學號</label>
+		<input type="text" id="id">
+		</p>
+		<p class = "second_asile">
+		<label>電話</label>
+		<input type="text" id="phone">
+		</p>
+		<p>
+		<label>人數</label>
+		<input type="text" id="amount">
+		<input type="submit" id="submit">
+		</p>
+	</section>
+</div>
+</section>
+</body>
+</html>

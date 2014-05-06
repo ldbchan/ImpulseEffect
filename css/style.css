@@ -938,13 +938,16 @@
 			background: url('images/overlay.png');
 		}
 #facebook{
-	margin-top:1em;}
+	margin-top:1em;
+	color: #eee;}
 
 	#footer-wrapper
 	{
 		background: url('images/dark.png');
 		color: #eee;
 		color: rgba(255,255,255,0.5);
+		font-family:"Microsoft JhengHei";
+		font-size:15px;
 	}
 
 		#footer-wrapper h1,
@@ -1079,12 +1082,12 @@
 	
 	.wrapper-style3
 	{
-		background: #f3f3f3 url('images/overlay.png');
+		background: #f3f3f3 url('images/subtle.png');
 	}
 	
 		.wrapper-style3 .title
 		{
-			background: #f3f3f3 url('images/overlay.png');
+			background: #f3f3f3 url('images/subtle.png');
 			color: #484d55;
 		}
 		
@@ -1144,7 +1147,9 @@
 		{
 		}
 .time{
-	color:#FFF;}		
+	color:#CCC;
+	
+	font-family:"Microsoft JhengHei";}		
 /*********************************************************************************/
 /* Highlights                                                                    */
 /*********************************************************************************/
@@ -1190,3 +1195,13 @@
 				{
 					color: #fff;
 				}
+#right{
+	font-family:"Microsoft JhengHei";
+	text-align:left;}
+	
+	#plot{ 
+	font-size:25px;
+		color:#CCC;}
+#note{
+	font-family:"Microsoft JhengHei";
+	color:#F00;}
