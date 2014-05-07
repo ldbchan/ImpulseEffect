@@ -373,8 +373,11 @@
 
 	#main
 	{
-		border-bottom:2px solid #ccc;
 		padding: 1em 0 0 0;
+	}
+
+	.main tr {
+		border-bottom:2px solid #ccc;
 	}
 
 /*********************************************************************************/
