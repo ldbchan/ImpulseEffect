@@ -1,8 +1,7 @@
 body{
 background: #222835 url('images/dark.png');
-
 position: relative;
-top:30px;
+top:20px;
 
 }
 
@@ -24,7 +23,7 @@ top:30px;
 .last_asile{
 	position: relative;
 	left: 490px;
-	bottom: 293px;
+	bottom: 292px;
 }
 #Reservation{
 	text-align:center;
@@ -34,10 +33,10 @@ top:30px;
 	bottom: 20px;
 }
 .note{
-	position: static;
-	margin-top: -350px;
+	position: relative;
+	top: -380px;
 	text-align:center;
-	color: red;
+	color: white;
 	text-decoration: underline;
-	font-size: 18pt;
+	font-size: 17pt;
 }
