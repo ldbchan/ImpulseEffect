@@ -537,7 +537,7 @@
 	{
 		margin: 1em 0 -1em 0;
 		top:  200px;
-		height: 340px;
+		height: 300px;
 		
 	}
 	#main tr{
@@ -554,7 +554,6 @@
   		border-collapse: collapse;
   		width:1200px; 
   		border-color: black;
-  		color: black;
 	} 
 	
 	.second_asile{
