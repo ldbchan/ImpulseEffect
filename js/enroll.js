@@ -42,7 +42,7 @@ function showState(Session, i) {
 		success: function(object) {
 					 var applied = object.get("applied");
 					 if (applied >= 7) {
-						 $(tag).text("已額滿");
+						 $(tag).html("<strong>已額滿</strong>");
 					 }
 					 else {
 						 console.log("1");
