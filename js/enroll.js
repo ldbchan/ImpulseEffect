@@ -127,7 +127,7 @@ $(document).ready(function () {
 								 applicant.set("department", department);
 								 applicant.set("phone", phone);
 								 applicant.set("amount", amount);
-								 applicant.set("id", id);
+								 applicant.set("sid", id);
 								 applicant.set("isPaid", false);
 								 applicant.save();
 
