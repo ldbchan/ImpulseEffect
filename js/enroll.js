@@ -47,8 +47,8 @@ function showState(Session, i) {
 					 else {
 						 console.log("1");
 						 var url = "reservation.html?date=" + encodeURIComponent(object.get("date")) + "&time=" + encodeURIComponent(object.get("time")) + "&rest=" + encodeURIComponent(7-applied);
-						 //$(tag).html("<a href='" + url + "'>剩餘" + (7-applied).toString() + "位</a>");
-					 	 $(tag).html("剩餘" + (7-applied).toString() + "位");
+						 $(tag).html("<a href='" + url + "'>剩餘" + (7-applied).toString() + "位</a>");
+//					 	 $(tag).html("剩餘" + (7-applied).toString() + "位");
 					 }	
 				 },
 		error: function(error) {
